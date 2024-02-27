@@ -1,0 +1,20 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(104, 104, 193);
+}
+* {
+  box-sizing: border-box;
+  border: 3px;
+  color: transparent;
+}
+
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 5%;
+}
+.row::after {
+  clear: both;
+  display: table;
+}
